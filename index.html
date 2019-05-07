@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
@@ -20,8 +20,13 @@
       font-size: 18px;
     }
 
-    h1{
+    h1 {
       font-family: Lato;
+    }
+
+    a {
+      color: black;
+      text-decoration: underline;
     }
 
     .margin {
@@ -30,12 +35,12 @@
 
     .bg-1 {
       background-color: #46b5ff;
-      
+
       color: #ffffff;
     }
 
     .bg-2 {
-      background-color:  #2f2f2f;
+      background-color: #2f2f2f;
       /* Dark Blue */
       color: #ffffff;
     }
@@ -46,7 +51,9 @@
       color: #555555;
     }
 
-    
+    #copyright {
+      color: black;
+    }
 
     .jumbotron {
       background-color: #474e5d;
@@ -91,10 +98,10 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href=learn-how-to-swim.html>Learn How to Swim</a></li>
-          <li><a href="#">Freestyle</a></li>
-          <li><a href="#">Backstroke</a></li>
-          <li><a href="#">Breaststroke</a></li>
-          <li><a href="#">Butterfly</a></li>
+          <li><a href="freestyle.html">Freestyle</a></li>
+          <li><a href="backstroke.html">Backstroke</a></li>
+          <li><a href="breaststroke.html">Breaststroke</a></li>
+          <li><a href="butterfly.html">Butterfly</a></li>
         </ul>
       </div>
     </div>
@@ -121,18 +128,18 @@
     <h3 class="margin">Introduction of the Swimming Strokes! </h3> <br>
     <div class="row">
       <div class="col-xs-6">
-        <p><a href="#">Freestyle</a></p>
+        <h3><a href="freestyle.html">Freestyle</a></h3>
         <img src="Freestyle_swimming2.gif" class="img-responsive margin" style="width:100%" alt="giffree">
       </div>
       <div class="col-xs-6">
-        <p><a href="#">Backstroke </a></p>
+        <h3><a href="backstroke.html">Backstroke </a></h3>
         <img src="Backstroke.gif" class="img-responsive margin" style="width:100%" alt="gifback">
       </div>
       <div class="col-xs-6">
-        <p><a href="#">Breaststroke</a></p>
+        <h3><a href="breaststroke.html">Breaststroke</a></h3>
         <img src="Breaststroke2.gif" class="img-responsive margin" style="width:100%" alt="gifbreast"> </div>
       <div class="col-xs-6">
-        <p><a href="#"> Butterfly</a></p>
+        <h3><a href="butterfly.html"> Butterfly</a></h3>
         <img src="Butterfly_stroke.gif" class="img-responsive margin" style="width:100%" alt="giffly">
       </div>
 
@@ -143,8 +150,8 @@
     <h4><a href=learn-how-to-swim.html>Start Here!</a></h4>
   </div>
   <!-- Footer -->
-  <footer class="container-fluid bg-4 text-center">
-    <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+  <footer id="copyright" class="container-fluid bg-3 text-center">
+    <p>copyright © 2019 Telecom Swimming</p>
   </footer>
 
 </body>
