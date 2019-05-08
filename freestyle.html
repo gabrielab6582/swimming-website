@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+
   <title>Swimming Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
@@ -82,13 +85,20 @@
       margin-left: 30px;
     }
 
-
-@ media 
-    .container {
-     
-      width: 1000px !important;
+    #copyright {
+      color: black;
     }
 
+    @media (min-width: 1140px) {
+      .container {
+        min-width: 1130px !important;
+      }
+    }
+
+    @media (min-width: 960px) {
+      .container {
+        min-width: 900px !important;
+      }
     }
   </style>
 </head>
